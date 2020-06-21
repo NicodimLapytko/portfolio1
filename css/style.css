@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html { 
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1070px;
+}
+.nav-container{
+    box-shadow: 0 5px 10px;
+}
+.navigation{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 500;
+    font-size: 20px;
+}
+.nav{
+    font-weight: 500;
+    font-size: 17px;
+}
+.nav a{
+    padding-left: 12px;
+    color: #000;
+    text-decoration: none;
+}
+.nav a:hover{
+}
+.about-prog{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    box-shadow: 0 5px 10px;
+}
+.prog{
+    text-align: center;
+}
+.f_h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.f_text{margin: 0 auto;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 80px;
+    width: 500px;
+}
+.prog-lang{
+    padding: 50px 0 50px 0;
+}
+.lang-container{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+.about-languages{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.text{
+    font-weight: 500;
+    font-size: 17px;
+    width: 270px;
+}
+.img{
+    width: 150px;
+}
+.footer{
+    background-color: #333;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+@media (max-width: 809px){
+    .lang-container{
+        flex-direction: column;
+    }
+    .text{
+        margin: 0 auto;
+    }
+    .f_text{
+        width: 400px;
+    }
+}
+@media (max-width: 406px){
+    .f_text{
+        width: 350px;
+    }
+}
